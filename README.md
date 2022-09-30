@@ -1,10 +1,6 @@
 # Phishing_Website_Classification
 A Machine Learning model to classify wether a website is a phishing website or not using Python (Jupyter Notebbok).
 
-Result :
-**Testing accuracy = 93.70%
-Training accuracy = 94.55%**
-
 Libraries used:
 **pandas,
 numpy,
@@ -26,3 +22,7 @@ Approach:
 8. Since we had to classify wether a website is phishing website or not I used logistic regression for classification (as linear regression is used when target variable is linearly dependent on the independent variables and continous).
 9. We can then use the accuracy_score library or .score() method to check the accuracy of our model.
 10. At last I presented a bar graph to represent the predicted result.
+
+Result :
+**Testing accuracy = 93.70%
+Training accuracy = 94.55%**
